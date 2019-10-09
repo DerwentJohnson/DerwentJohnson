@@ -1,0 +1,110 @@
+.header{
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+	margin: 25px;
+	background-color: #41808A;
+}
+.container{
+	display: grid;
+	grid-column-gap: 1em;
+	grid-template-columns: 30% 70%;
+	margin: 40px
+}
+.container div{
+	background-color: #7BBFD1;
+	padding: 10px;
+}
+.header div{
+	border: 2px #ccc solid;
+	padding: 35px;
+	background-color: #41808A;
+}
+body{
+	background-color: #857173; 
+}
+#contacts{
+	grid-row: 1/6;
+	background-color: #FFFFFF;
+	 
+}
+#contacts p{
+	float: bottom;
+}
+
+
+.box{
+	grid-template-columns: 70% 30%;
+	border-color: #564ad4;
+}
+
+.c1{
+border:1px;
+width: auto;
+}
+.c2{
+border: 1px;
+flex-wrap: wrap;
+width: 80%;
+}
+.box ul{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	list-style-type: circle
+}
+
+#socialMedia ul{
+	list-style-type: none;
+}
+#facebook{
+	display: flex;
+	flex-direction: row;
+}
+
+#facebookLink {
+	padding-left: 10px;
+	text-decoration: none;
+} 
+
+#linkn{
+	display: flex;
+	flex-direction: row;
+}
+#linkedinLink {
+	padding-left: 10px;
+	text-decoration: none;
+} 
+
+#github{
+	display: flex;
+	flex-direction: row
+}
+#githubLink{
+	padding-left: 10px;
+	text-decoration: none;
+}
+#contacts ul{
+	list-style: none;
+}
+#phone img{
+	padding-right: 10px;
+}
+#website img{
+	padding-right: 10px;
+}
+#email img{
+	padding-right: 10px;
+}
+
+#mypic{
+	border-radius: 50%;
+}
+#imageContainer{
+	background-color: #FFFFFF;
+	text-align: center;
+}
+#socialMedia{
+	background-color: #FFFFFF;
+}
+
+
